@@ -15,7 +15,5 @@ class EmailAddressParser
     emails.gsub!(",", "")
     emails.split.uniq
   end
-  
-  
-  
+
 end
